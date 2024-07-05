@@ -8,7 +8,15 @@ const policyData = {
         {
             title: "Land Value Tax (LVT)",
             description: "Tax based on land value, not including buildings.",
-            analogy: "Paying for the spot your home sits on, not the home itself."
+            analogy: "Imagine a neighborhood where many families have lived for decades. With a Land Value Tax:
+
+1. If you decide to renovate your kitchen or add a room to your house, your tax bill wouldn't go up. You're not penalized for improving your home.
+
+2. If your neighbor builds a brand new house, it doesn't mean your taxes will increase. You're not punished because the area is changing around you.
+
+3. If you've lived in your home for 40 years and the neighborhood has become more desirable, your tax bill is the same as a newcomer with a similar plot of land. Long-term residents aren't pushed out by rising taxes.
+
+It's like paying for the spot your home sits on, not the home itself. This way, you're free to improve your home without worrying about a tax hike, and you're not pressured to move just because your neighborhood is changing."
         },
     ],
     healthcare: [
