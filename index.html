@@ -7,20 +7,11 @@
     <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
     <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
     <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body>
     <div id="root"></div>
-    <script type="text/babel">
-        const App = () => {
-            return (
-                <div>
-                    <h1>Kansas Policy Prescriptions</h1>
-                    <p>This is a React app. If you can see this, React is working correctly.</p>
-                </div>
-            );
-        };
-
-        ReactDOM.render(<App />, document.getElementById('root'));
-    </script>
+    <script type="text/babel" src="policyData.js"></script>
+    <script type="text/babel" src="App.js"></script>
 </body>
 </html>
