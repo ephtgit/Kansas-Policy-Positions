@@ -42,8 +42,7 @@ const policyData = {
 };
 
 const App = () => {
-  const [activeTab, React.useState('housing')];
-
+  const [activeTab, setActiveTab] = React.useState('housing');
   return (
     <div className="min-h-screen bg-gray-100 p-4">
       <h1 className="text-3xl font-bold mb-6 text-center">Kansas Policy Prescriptions</h1>
@@ -59,7 +58,6 @@ const App = () => {
           </button>
         ))}
       </div>
-
       <div className="max-w-3xl mx-auto">
         <PolicySection 
           title={activeTab.charAt(0).toUpperCase() + activeTab.slice(1)} 
